@@ -7,8 +7,9 @@ class CollegeStudent{
 
     static {
         College = "Juet Guna";
-        System.out.println("In static Block "+College);
+        System.out.println("In static Block " + College);
     }
+
     CollegeStudent(){
         name = "Unknown";
         age = 0;
