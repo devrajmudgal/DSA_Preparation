@@ -1,0 +1,13 @@
+Classes and Interfaces ---> Capital Letters ( for example -- Calculator , Runnable )
+
+Variables and Method ---> starting with small Letters and then follow camel casing
+( for example -- num1, name, collegeName, add(), printNumbers() )
+
+Constant ---> All capital ( for example -- PIE, DATA etc.. )
+
+snake casing --- CONST_DATA, PIE_NUM ..
+
+Constructor ---> Human(); // start with capital
+
+*** Prefer camel casing in Java rather than snake casing except in case of defining Constants
+
