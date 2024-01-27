@@ -1,5 +1,6 @@
 package MultiLevelInheritance;
 
+//Multiple Inheritance Does not work in java because of Ambiguity
 public class demo {
     public static void main(String[] args) {
         VeryAdvanceCalculator VAC = new VeryAdvanceCalculator();
