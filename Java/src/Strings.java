@@ -6,6 +6,9 @@ public class Strings {
         System.out.println(s.charAt(4)); 
         System.out.println(s.length());
         System.out.println(s.toLowerCase());
+        
+        String newStr = new String("Hello ");
+        System.out.println(newStr.concat(" World"));
 
         //String are not repeated instead stored in constant String pool and later deleted from memory using garbage collector
 

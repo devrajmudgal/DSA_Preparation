@@ -1,4 +1,4 @@
-package SingleLevelInheritance;
+
 
 public class AdvanceCalculator extends Calculator { // Child , Derived , Sub Class
     public void multi(int a, int b){

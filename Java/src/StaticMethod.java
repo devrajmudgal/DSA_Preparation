@@ -21,6 +21,6 @@ public class StaticMethod {
         staticMethodExample.operation = "Sum";
         SM.Show();
         // SM.Show1();
-        staticMethodExample.Show1(SM);
+        staticMethodExample.Show1(SM); // passing the object reference
     }
 }

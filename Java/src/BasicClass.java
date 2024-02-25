@@ -1,7 +1,7 @@
 import java.awt.*;
 
 class Calculator{
-    public int add(int a,int b){
+    int add(int a,int b){
         int result = a + b;
         return result;
     }

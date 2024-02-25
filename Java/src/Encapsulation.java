@@ -19,9 +19,11 @@ public class Encapsulation {
     public static void main(String[] args) {
         //Enacapsulation --> Binding data Members and Method Together
         Human H = new Human();
-        H.setAge(45);
-        H.setName("Ashok");
+        
         System.out.println(H.getAge());
         System.out.println(H.getName());
+
+        H.setAge(45);
+        H.setName("Ashok");
     }
 }

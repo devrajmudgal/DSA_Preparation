@@ -8,17 +8,20 @@ class ANew {
 }
 class BNew extends ANew {
     public BNew(){
-        super(7);
+        // super();
+
+        this(5);
         System.out.println("In BNew's Default Constructor");
     }
     public BNew(int b){
-        this(); // calls all constructor of current class
+        // this(); // calls all constructor of current class
+        super(4);
         System.out.println("In BNew's Parameterized Constructor");
     }
 }
 
 public class ThisConstructor {
     public static void main(String[] args) {
-        BNew BN = new BNew(7);
+        BNew BN = new BNew();
     }
 }

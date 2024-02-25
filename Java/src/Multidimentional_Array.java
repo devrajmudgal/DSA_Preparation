@@ -27,7 +27,7 @@ public class Multidimentional_Array {
         }
         //enhanced for loop
         System.out.println("**********************************************");
-        for(int n[]:nums){
+        for(int n[]:nums){ //n[] because here nums element are of type array
             for(int m:n){
                 System.out.print(m+" ");
             }

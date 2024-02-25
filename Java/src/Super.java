@@ -14,7 +14,7 @@ class B extends A{
         System.out.println("In B's Default Constructor");
     }
      B(int b){
-        super(); // super is by default present in every class
+        // super(); // super is by default present in every class
         System.out.println("In B's Parameterized Constructor");
     }
 }

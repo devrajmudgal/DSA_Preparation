@@ -12,5 +12,7 @@ public class ClassLoader {
     public static void main(String[] args) throws ClassNotFoundException{
         //How to load a Class with using the object creation method;
         Class.forName("Sample");
+        
+        Sample sp = new Sample();
     }
 }

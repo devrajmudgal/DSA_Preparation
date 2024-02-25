@@ -13,18 +13,21 @@ public class variables {
         float num5 = 34.4545f;
         double num6 = 454.676; //default
 
-        //characters
+        //characters // 2 Byte
 
         char ch1 = 'a';
-        char ch2 = '1';
+        char ch2 = '1'; 
 
-        //boolean
+        //boolean // 1Bit
 
         boolean bool1 = true;
         boolean bool2 = false;
 
         int a = 2;
         long b = a; //Conversion --> Implicit
+
+        long lnum = 23;
+        int sLnum = (int)lnum;
 
         float f = 4.343f;
 

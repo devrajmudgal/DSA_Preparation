@@ -1,4 +1,4 @@
-package SingleLevelInheritance;
+
 
 public class Calculator { //Parent , Base , Super Class
     public void add(int a, int b){

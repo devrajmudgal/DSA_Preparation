@@ -3,7 +3,7 @@ class OverA {
         System.out.println("In OverA show Method:");
     }
 }
-class OverB {
+class OverB extends OverA {
     public void show(){
         System.out.println("In OverB show Method");
     }
