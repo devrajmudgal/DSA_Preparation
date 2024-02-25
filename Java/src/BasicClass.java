@@ -1,6 +1,6 @@
-import java.awt.*;
+//import java.awt.*;
 
-class Calculator{
+class CalculatorNew {
     int add(int a,int b){
         int result = a + b;
         return result;
@@ -10,7 +10,7 @@ public class BasicClass {
     public static void main(String[] args) {
         int num1 = 23;
         int num2 = 34;
-        Calculator calc = new Calculator();
+        CalculatorNew calc = new CalculatorNew();
         int result = calc.add(num1,num2);
         System.out.println(result);
     }

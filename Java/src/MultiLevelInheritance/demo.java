@@ -1,4 +1,4 @@
-
+package MultiLevelInheritance;
 
 //Multiple Inheritance Does not work in java because of Ambiguity
 public class demo {
