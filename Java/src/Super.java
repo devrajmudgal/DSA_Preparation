@@ -7,6 +7,9 @@ class A extends Object{ // Every Class by Default Extends Object Class
       super();
       System.out.println("In A's Parameterized Constructor");
   }
+
+    public void show() {
+    }
 }
 class B extends A{
    B(){
